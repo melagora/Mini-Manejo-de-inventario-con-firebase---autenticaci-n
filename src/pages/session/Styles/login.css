@@ -1,0 +1,165 @@
+.general {
+  padding: 30px;
+  border-radius: 30px;
+  background-color: rgb(43, 43, 43);
+  box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.general h1 {
+  padding: 0px;
+  margin: 10px;
+}
+
+.formulario {
+  padding-bottom: 10px;
+}
+
+.formulario div {
+  padding: 2px;
+}
+
+/* Estilos generales para los inputs */
+input[type="email"],
+input[type="password"] {
+  text-align: center;
+  width: 300px; /* Ajusta el ancho según tus necesidades */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+}
+
+/* Cambia el color de fondo cuando el input está enfocado */
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background-color: #f2f2f2;
+  color: black;
+  outline: none;
+}
+
+.btn_inicio_sesion {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.btn_inicio_sesion1 button,
+.btn_inicio_sesion2 button,
+.btn_registrate1 button,
+.btn_registrate2 button,
+.btnSesionIniciada1 button,
+.btnSesionIniciada2 button {
+  /* Estilos básicos para los botones */
+  background-color: #e73d18; /* Verde por defecto */
+  border: solid 3px #ffffff;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn_inicio_sesion1 :hover,
+.btn_inicio_sesion2 :hover,
+.btnSesionIniciada1 :hover,
+.btnSesionIniciada2 :hover {
+  /* Estilos al pasar el mouse por encima */
+  background-color: #f38f07;
+  border: solid 3px #e73d18;
+}
+
+section p a {
+  text-decoration: none; /* Quita el subrayado */
+  color: #e73d18; /* Cambia el color del texto a gris oscuro */
+}
+
+section p a:hover {
+  color: #f38f07;
+  text-decoration: underline;
+}
+
+/* REGISTER*/
+
+.btn_registrate {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn_registrate2 button a {
+  margin: 20px;
+}
+
+.btn_registrate1 :hover {
+  /* Estilos al pasar el mouse por encima */
+  background-color: #f38f07;
+  border: solid 3px #e73d18;
+}
+
+.btn_registrate2 :hover {
+  background-color: #f38f07;
+}
+
+/*Inicio de sesión*/
+
+.btnSesionIniciada {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* PRODUCTOS */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: rgb(40, 40, 40);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.agregarProducto div {
+  margin: 10px;
+}
+
+.botonesProductos {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.botonesProductos1 button,
+.botonesProductos2 button {
+  /* Estilos básicos para los botones */
+  background-color: #e73d18; /* Verde por defecto */
+  border: solid 3px #ffffff;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.agregarProductoNombre, .agregarProductoDescription{
+  display: flex;
+  padding-right: 40px;
+  justify-content: right;
+  flex-direction: row;
+}
