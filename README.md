@@ -9,4 +9,5 @@ Se modifica un proyecto de crud de productos con firebase que se hizo en clase, 
 ![image](https://github.com/user-attachments/assets/84413ff8-c546-4419-877f-98df8dd03ed2)
 ![image](https://github.com/user-attachments/assets/c4d3341a-6f30-4d7b-a9f7-2978d9487884)
 ![image](https://github.com/user-attachments/assets/8586a399-1d22-49e6-bad9-aea2ca760e95)
+![image](https://github.com/user-attachments/assets/974df64a-fe78-4b2f-be03-e9ff75c2f62d)
 
